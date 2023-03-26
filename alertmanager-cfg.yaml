@@ -8,9 +8,9 @@ data:
     global:
       resolve_timeout: 1m
       smtp_smarthost: 'smtp.163.com:25'
-      smtp_from: '17602314229@163.com'
-      smtp_auth_username: '17602314229'
-      smtp_auth_password: 'UXGNIEPHMZCPBMZO'
+      smtp_from: '邮箱@163.com'
+      smtp_auth_username: '昵称'
+      smtp_auth_password: '授权码'
       smtp_require_tls: false
     route:
       group_by: [alertname]
